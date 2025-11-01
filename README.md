@@ -31,9 +31,17 @@ diabetes_prediction/
 ├── diabetes_classification.ipynb    # Notebook utama
 ├── data/
 │   └── diabetes.csv                 # Dataset Diabetes
+├── image/                           # Hasil gambar visualisasi & evaluasi model
+│   ├── histogram_fitur.png
+│   ├── countplot_outcome.png
+│   ├── roc_curve.png
+│   └── heatmap_perbandingan_model.png
 ├── LAPORAN_KLASIFIKASI_DIABETES.MD  # Laporan singkat
 └── README.md                        # Petunjuk & deskripsi proyek
 ```
+
+**Catatan:**  
+Semua hasil visualisasi (histogram, countplot, ROC Curve, heatmap, dll) akan otomatis disimpan ke dalam folder `image/` setelah menjalankan notebook.
 
 ---
 
@@ -98,11 +106,11 @@ Dataset **Diabetes** berisi data medis pasien dengan fitur-fitur seperti:
 
 | Model                  | Accuracy | Precision | Recall | F1-score | AUC  |
 | :--------------------- | :------: | :-------: | :----: | :------: | :--: |
-| Logistic Regression    | 0.81     | 0.78      | 0.74   | 0.76     | 0.86 |
-| Decision Tree          | 0.75     | 0.70      | 0.72   | 0.71     | 0.77 |
-| K-Nearest Neighbors    | 0.78     | 0.74      | 0.72   | 0.73     | 0.82 |
-| Support Vector Machine | 0.83     | 0.80      | 0.76   | 0.78     | 0.88 |
-| Random Forest          | 0.85     | 0.82      | 0.80   | 0.81     | 0.90 |
+| Logistic Regression    |   0.81   |   0.78    |  0.74  |   0.76   | 0.86 |
+| Decision Tree          |   0.75   |   0.70    |  0.72  |   0.71   | 0.77 |
+| K-Nearest Neighbors    |   0.78   |   0.74    |  0.72  |   0.73   | 0.82 |
+| Support Vector Machine |   0.83   |   0.80    |  0.76  |   0.78   | 0.88 |
+| Random Forest          |   0.85   |   0.82    |  0.80  |   0.81   | 0.90 |
 
 >
 

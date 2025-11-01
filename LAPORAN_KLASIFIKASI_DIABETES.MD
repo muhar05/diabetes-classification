@@ -8,6 +8,28 @@
 
 ---
 
+## 0. STRUKTUR FOLDER PROYEK
+
+```
+diabetes_prediction/
+├── diabetes_classification.ipynb
+├── data/
+│   └── diabetes.csv
+├── image/
+│   ├── histogram_fitur.png
+│   ├── countplot_outcome.png
+│   ├── roc_curve.png
+│   └── heatmap_perbandingan_model.png
+├── LAPORAN_KLASIFIKASI_DIABETES.MD
+└── README.md
+```
+
+**Keterangan:**  
+- Folder `image/` berisi semua hasil gambar visualisasi dan evaluasi model dari notebook.
+- Gambar-gambar ini dapat digunakan untuk dokumentasi, laporan, atau presentasi.
+
+---
+
 ## 1. DESKRIPSI DATASET
 
 ### 1.1 Sumber dan Gambaran Umum
