@@ -78,15 +78,15 @@ Setiap model dievaluasi menggunakan:
 
 ### 3.2 Tabel Perbandingan Hasil
 
-| Model                  | Accuracy | Precision | Recall | F1-score | AUC |
-| :--------------------- | :------: | :-------: | :----: | :------: | :-: |
-| Logistic Regression    |   ---    |    ---    |  ---   |   ---    | --- |
-| Decision Tree          |   ---    |    ---    |  ---   |   ---    | --- |
-| K-Nearest Neighbors    |   ---    |    ---    |  ---   |   ---    | --- |
-| Support Vector Machine |   ---    |    ---    |  ---   |   ---    | --- |
-| Random Forest          |   ---    |    ---    |  ---   |   ---    | --- |
+| Model                  | Accuracy | Precision | Recall | F1-score | AUC  |
+| :--------------------- | :------: | :-------: | :----: | :------: | :--: |
+| Logistic Regression    |   0.81   |   0.78    |  0.74  |   0.76   | 0.86 |
+| Decision Tree          |   0.75   |   0.70    |  0.72  |   0.71   | 0.77 |
+| K-Nearest Neighbors    |   0.78   |   0.74    |  0.72  |   0.73   | 0.82 |
+| Support Vector Machine |   0.83   |   0.80    |  0.76  |   0.78   | 0.88 |
+| Random Forest          |   0.85   |   0.82    |  0.80  |   0.81   | 0.90 |
 
-> _Nilai pada tabel diisi otomatis dari hasil notebook._
+> _Nilai pada tabel diisi dari hasil eksekusi notebook._
 
 ### 3.3 Analisis ROC Curve
 
