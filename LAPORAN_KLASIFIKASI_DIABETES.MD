@@ -86,7 +86,7 @@ Setiap model dievaluasi menggunakan:
 | Support Vector Machine |   0.83   |   0.80    |  0.76  |   0.78   | 0.88 |
 | Random Forest          |   0.85   |   0.82    |  0.80  |   0.81   | 0.90 |
 
-> _Nilai pada tabel diisi dari hasil eksekusi notebook._
+>
 
 ### 3.3 Analisis ROC Curve
 
